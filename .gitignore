@@ -1,0 +1,29 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+npm-debug.log*
+
+# Python (in case of helper scripts)
+__pycache__/
+.venv/
+venv/
+
+# Runtime output / state
+logs/
+data/
+*.db
+*.sqlite*
+*state*.json
+
+# Local-only notes and one-off deploy scripts
+memory/
+deploy_crawler.sh
+
+# Tooling / OS
+.claude/
+.DS_Store
